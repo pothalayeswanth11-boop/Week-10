@@ -8,7 +8,7 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* Provides History and Routing features to down-level components */}
-    <BrowserRouter>
+    <BrowserRouter basename="/Week-10">
       {/* Provides User State and Login methods to down-level components */}
       <AuthProvider>
         <App />
